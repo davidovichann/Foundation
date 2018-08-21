@@ -22,7 +22,7 @@
 + (NSUInteger)randomUnsignedIntegerNumberFrom:(NSUInteger)fromNumber to:(NSUInteger)toNumber {
     
     float min = (fromNumber <= toNumber && fromNumber <= NSUIntegerMax) ? fromNumber : 0;
-    float max = (fromNumber <= toNumber && toNumber <= NSUIntegerMax) ? toNumber : NSUIntegerMax;
+    float max = (min <= toNumber && toNumber <= NSUIntegerMax) ? toNumber : NSUIntegerMax;
     NSLog(@"%f - mon, %f - max", min, max);
     //    return (NSInteger)(min + arc4random_uniform(max - min + 1));
 //    return (NSUInteger)((((float)arc4random() / 0x100000000) * (max - min) + min) + 0.5);

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		95B6D114212CA8E8002C8306 /* ADDecimal.m in Sources */ = {isa = PBXBuildFile; fileRef = 95B6D113212CA8E8002C8306 /* ADDecimal.m */; };
 		95D4490C20ED67A100F50F7B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 95D4490B20ED67A100F50F7B /* AppDelegate.m */; };
 		95D4490F20ED67A100F50F7B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95D4490E20ED67A100F50F7B /* ViewController.m */; };
 		95D4491220ED67A100F50F7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95D4491020ED67A100F50F7B /* Main.storyboard */; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		95B6D112212CA8E8002C8306 /* ADDecimal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADDecimal.h; sourceTree = "<group>"; };
+		95B6D113212CA8E8002C8306 /* ADDecimal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADDecimal.m; sourceTree = "<group>"; };
 		95D4490720ED67A100F50F7B /* ADFoundation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ADFoundation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		95D4490A20ED67A100F50F7B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		95D4490B20ED67A100F50F7B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -80,6 +83,8 @@
 			children = (
 				95D4492120ED6B4500F50F7B /* ADNumbers.h */,
 				95D4492220ED6B4500F50F7B /* ADNumbers.m */,
+				95B6D112212CA8E8002C8306 /* ADDecimal.h */,
+				95B6D113212CA8E8002C8306 /* ADDecimal.m */,
 			);
 			path = Numbers;
 			sourceTree = "<group>";
@@ -155,6 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				95D4490F20ED67A100F50F7B /* ViewController.m in Sources */,
+				95B6D114212CA8E8002C8306 /* ADDecimal.m in Sources */,
 				95D4491A20ED67A300F50F7B /* main.m in Sources */,
 				95D4490C20ED67A100F50F7B /* AppDelegate.m in Sources */,
 				95D4492320ED6B4500F50F7B /* ADNumbers.m in Sources */,
